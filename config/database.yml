@@ -9,13 +9,13 @@ default: &default
 
 development:
   <<: *default
-  database: blog_dev
+  database: journal_dev
   
 test:
   <<: *default
-  database: blog_test
+  database: journal_test
 
 production:
   <<: *default
-  database: blog_prod
+  database: journal_prod
 
