@@ -7,7 +7,7 @@ RSpec.describe "CreatingBlogPosts", type: :system do
 
   pending "add some scenarios (or delete) #{__FILE__}"
     it 'saves and displays the resulting blog post' do
-      visit '/blog_posts/new'
+      visit '/blog_post/new'
     
       fill_in 'Title', with: 'Hello, World!'
       fill_in 'Body', with: 'Hello, I say!'
