@@ -9,7 +9,7 @@ RSpec.describe "CreatingTaskPosts", type: :system do
       #visit root route
       visit '/'
       #link to create post
-      click_link 'Create Tasks'
+      click_link 'Create Task'
       #fill in the form
       fill_in 'Title', with: 'title'
       fill_in 'Description', with: 'description'
