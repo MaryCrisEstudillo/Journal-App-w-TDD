@@ -11,8 +11,8 @@ RSpec.describe "CreatingTaskPosts", type: :system do
       #link to create post
       click_link 'Create Task'
       #fill in the form
-      fill_in 'Title', with: 'title'
-      fill_in 'Description', with: 'description'
+      fill_in 'title', with: 'title'
+      fill_in 'description', with: 'description'
     
       click_button 'Submit Task'
     
